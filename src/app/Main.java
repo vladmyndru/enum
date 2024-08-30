@@ -10,7 +10,7 @@ public class Main {
         Motivator motivator = new DaysAdvice();
 
         System.out.println("Input one of MONDAY, TUESDAY, WEDNESDAY, " +
-                "THURSDAY, FRIDAY, SATURDAY, SUNDAY");
+                "THURSDAY, FRIDAY, SATURDAY, SUNDAY:");
         String input = scanner.nextLine().toUpperCase();
 
         try {

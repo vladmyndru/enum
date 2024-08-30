@@ -17,8 +17,6 @@ public class DaysAdvice implements Motivator {
                 break;
             case SUNDAY:
                 System.out.println("Lets` go home");
-            default:
-                System.out.println("You made a mistake somewhere");
         }
     }
 }
